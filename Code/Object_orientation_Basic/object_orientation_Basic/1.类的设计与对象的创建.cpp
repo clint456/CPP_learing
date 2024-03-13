@@ -1,9 +1,9 @@
 ﻿// object_orientation_Basic.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-#include <iostream>
-
-using namespace std;
+//#include <iostream>
+//
+//using namespace std;
 
 // 使用关键字 class来描述一个类
 // 类：具有相同特征、功能对象的集合

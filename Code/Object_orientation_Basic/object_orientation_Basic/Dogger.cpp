@@ -1,5 +1,5 @@
-#include "Dogger.h"
-
-void Dogger::bark(){
-	cout << "wang wang!" << endl;
-}
+//#include "Dogger.h"
+//
+//void Dogger::bark(){
+//	cout << "wang wang!" << endl;
+//}

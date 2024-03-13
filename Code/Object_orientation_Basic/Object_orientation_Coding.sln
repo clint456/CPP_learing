@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_orientation_Basic", "object_orientation_Basic\object_orientation_Basic.vcxproj", "{15DA32A6-11F4-4C79-A1BD-552EE0C8F72F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "orentationObjectProgramming_enchance", "orentationObjectProgramming_enchance\orentationObjectProgramming_enchance.vcxproj", "{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Object_orientation_three_character", "Object_orientation_three_character\Object_orientation_three_character.vcxproj", "{AF7A303B-A427-4D05-843A-9AB67AAA0A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{15DA32A6-11F4-4C79-A1BD-552EE0C8F72F}.Release|x64.Build.0 = Release|x64
 		{15DA32A6-11F4-4C79-A1BD-552EE0C8F72F}.Release|x86.ActiveCfg = Release|Win32
 		{15DA32A6-11F4-4C79-A1BD-552EE0C8F72F}.Release|x86.Build.0 = Release|Win32
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Debug|x64.ActiveCfg = Debug|x64
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Debug|x64.Build.0 = Debug|x64
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Debug|x86.Build.0 = Debug|Win32
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Release|x64.ActiveCfg = Release|x64
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Release|x64.Build.0 = Release|x64
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Release|x86.ActiveCfg = Release|Win32
+		{EC6AF977-EAD3-4508-8151-AD9C7B7278CF}.Release|x86.Build.0 = Release|Win32
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Debug|x64.ActiveCfg = Debug|x64
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Debug|x64.Build.0 = Debug|x64
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Debug|x86.Build.0 = Debug|Win32
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Release|x64.ActiveCfg = Release|x64
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Release|x64.Build.0 = Release|x64
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Release|x86.ActiveCfg = Release|Win32
+		{AF7A303B-A427-4D05-843A-9AB67AAA0A52}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
