@@ -1443,6 +1443,78 @@ int main() {
 
 ##### 继承的三种方式：
 
-![image-20240313092243257](./C++_intermediate.assets/image-20240313092243257.png)
+**不同的继承方式会影响基类成员在派生类中的访问权限。**
+
+**1) public继承方式*** 基类中所有 public 成员在派生类中为 public 属性；
+
+* 基类中所有 protected 成员在派生类中为 protected 属性；
+* 基类中所有 private 成员在派生类中不能使用。
+
+**2) protected继承方式*** 基类中的所有 public 成员在派生类中为 protected 属性；
+
+* 基类中的所有 protected 成员在派生类中为 protected 属性；
+* 基类中的所有 private 成员在派生类中不能使用。
+
+**3) private继承方式*** 基类中的所有 public 成员在派生类中均为 private 属性；
+
+* 基类中的所有 protected 成员在派生类中均为 private 属性；
+* 基类中的所有 private 成员在派生类中不能使用。
+
 
 **在C++中，默认使用私有继承**
+
+---
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class BaseClass {
+public:
+	int publicField;
+protected:
+	int protectedField;
+private:
+	int privateField;
+};
+
+
+class SubClass1 : public BaseClass{ 
+	void test01() {
+		cout << publicField << endl;
+		cout << protectedField << endl;
+		//无访问权限 cout << privateField << endl;
+	}
+	};
+class SubClass2 : protected BaseClass { 
+	void test02() {
+		cout << publicField << endl;
+		cout << protectedField << endl;
+		//无访问权限 cout << privateField << endl;
+	}
+};
+class SubClass3 : private BaseClass{
+	void test03() {
+		cout << publicField << endl;
+		cout << protectedField << endl;
+		//无访问权限 cout << privateField << endl;
+	}
+};
+
+
+int main() {
+	SubClass1 *s1 = new SubClass1;
+	//s1 能访问public属性
+	cout << s1->publicField << endl;
+
+	SubClass2 s2;
+	//s2 中public属性变成protected
+	// 无访问权限 cout << s2->publicField << endl;
+
+	SubClass3 s3;
+	//s2 中所有属性变成private
+}
+```
+
+---
